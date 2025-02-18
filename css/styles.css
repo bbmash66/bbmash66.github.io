@@ -57,12 +57,12 @@ html {
     border-radius:  12px;
     padding: 6px 15px;
     transition: 0.3s;
-    display: inline-block;  /* Makes the link behave like a block element */
+    display: inline-block;  
 }
 .navbar .nav-link.btn-contact:hover {
     background-color: #33006b;
     color: #ffffff;
-    transform: scale(1.05);  /* この値を調整することで、ホバー時の拡大率を変更できます */
+    transform: scale(1.05);  
     transition: 0.3s;
 }
 
@@ -72,8 +72,8 @@ html {
     color: #ffffff; 
     border-radius: 12px;
     padding: 6px 15px;
-    transition: transform 0.3s ease-in-out, background-color 0.3s, color 0.3s;  /* transform を追加 */
-    display: inline-block;  /* Makes the link behave like a block element */
+    transition: transform 0.3s ease-in-out, background-color 0.3s, color 0.3s;  
+    display: inline-block;  
 }
 
 
@@ -126,7 +126,7 @@ html {
 }
 
 .navbar-toggler {
-    margin-bottom: 7px;  /* この値を調整して、ボタンの位置を上下に動かします。 */
+    margin-bottom: 7px;  
 }
 
 
@@ -199,14 +199,14 @@ html {
 
 /* カードのホバーアクションスタイル */
 .card:hover {
-    transform: scale(1.05);  /* カードを5%大きくします */
-    transition: 0.3s ease-in-out; /* 0.3秒のアニメーションで大きくします */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* 影を少し大きくして、浮き上がっているように見せます */
+    transform: scale(1.05);  
+    transition: 0.3s ease-in-out; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
 /* カードのデフォルトの状態 */
 .card {
-    transition: 0.3s ease-in-out; /* アニメーションの効果 */
+    transition: 0.3s ease-in-out; 
 }
 
 
@@ -265,17 +265,17 @@ html {
 }
 
 .footer-logo img {
-    width: 66px;  /* この値を調整してロゴの幅を変更します */
-    height: auto;  /* 高さは自動的に調整されるため、アスペクト比が保たれます */
+    width: 66px; 
+    height: auto;  
 }
 
 
 .footer-modern .footer-nav a {
-    color: white; /* リンクの色を白色に設定 */
+    color: white; 
 }
 
 .footer-modern .footer-nav li {
-    margin-bottom: 10px; /* リストアイテム間のスペースを調整 */
+    margin-bottom: 10px; 
 }
 
 .footer-modern .col-md-4 {
@@ -291,9 +291,9 @@ html {
     color: #ffffff;
     border-radius: 12px;
     padding: 6px 15px;
-    transition: 0.3s;  /* アニメーションの効果 */
-    display: inline-block;  /* Makes the link behave like a block element */
-    transform: scale(1);  /* デフォルトのサイズ */
+    transition: 0.3s;  
+    display: inline-block;  
+    transform: scale(1);  
 }
 
 .footer-contact a:hover {
@@ -335,9 +335,9 @@ td {
 
 
 .unified2-bg {
-    background-color: #440092; /* 例として灰色を使用 */
-    padding-top: 2rem; /* mt-5 と同等のスペースを確保 */
-    padding-bottom: 2rem; /* mt-5 と同等のスペースを確保 */
+    background-color: #440092; 
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
 }
 
 .container-about h3{
@@ -347,7 +347,7 @@ td {
 /* カスタムテーブルの行の高さ */
 .table-custom-spacing td,
 .table-custom-spacing th {
-    padding: 8px 16px; /* 上下のパディングを12px、左右のパディングを16pxに設定 */
+    padding: 8px 16px; 
 }
 
 
@@ -383,8 +383,8 @@ body {
     color: #ffffff; 
     border-radius: 12px;
     padding: 6px 40px;
-    transition: transform 0.3s ease-in-out, background-color 0.3s, color 0.3s;  /* transform を追加 */
-    display: inline-block;  /* Makes the link behave like a block element */
+    transition: transform 0.3s ease-in-out, background-color 0.3s, color 0.3s;  
+    display: inline-block;  
     font-size: 1.3rem;
     font-weight: bold;
     
@@ -393,7 +393,7 @@ body {
 .btn-primary:hover {
     background-color: #33006b;
     color: #ffffff;
-    transform: scale(1.05);  /* この値を調整することで、ホバー時の拡大率を変更できます */
+    transform: scale(1.05);  
     transition: 0.3s;
 }
 
